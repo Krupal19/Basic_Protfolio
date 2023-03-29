@@ -20,6 +20,7 @@
 	/* COLOR */
 	--BODY-BGCOLOR: #ffffff;
 	--FONT-COLOR: #000;
+	--heading-color: #036282;
 }
 
 /* || GENERAL STYLES */
@@ -51,14 +52,19 @@ h2 .logo {
 	padding: 80px 0;
 }
 
-.text-left {
-	text-align: left !important;
+.text-center {
+	text-align: center !important;
 }
 
 /* header */
 
 header {
 	position: relative;
+}
+
+.web-heading {
+	color: #097da4;
+	font-size: 3rem;
 }
 
 
@@ -109,4 +115,116 @@ a:focus {
 	width: 25rem;
 	height: 25rem;
 	margin: 0 37%;
+}
+
+.developer-text {
+	margin-bottom: 3rem;
+}
+
+/* TECHOLOGIES */
+.tech-section {
+	background-color: #dbdbdb;
+}
+
+.tech-heading {
+	color: var(--heading-color);
+	font-size: 2rem;
+	display: inline-block;
+	padding: 1.5rem 0;
+}
+
+.tech-text {
+	font-size: 1.3rem;
+}
+
+/* PROJECTS */
+.project-heading {
+	color: var(--heading-color);
+	font-size: 2rem;
+	display: inline-block;
+	padding: 1.5rem 0;
+}
+
+.project-text {
+	font-size: 1.3rem;
+	padding-bottom: 2rem;
+}
+
+/* BOlGS */
+.blogs-section {
+	background-color: #dbdbdb;
+}
+
+.blogs-heading {
+	color: var(--heading-color);
+	font-size: 2rem;
+	display: inline-block;
+	padding: 1.5rem 0;
+}
+
+.blogs-text {
+	font-size: 1.3rem;
+}
+
+/* project - button */
+
+.project-btn {
+	padding: 0.6em 2.3em;
+	border-radius: 1rem;
+	cursor: pointer;
+	font-size: 1em;
+	color: #0d5f7a;
+	background-image: linear-gradient(45deg, transparent 50%, #0d5f7a 50%);
+	background-position: 25%;
+	background-size: 400%;
+	-webkit-transition: background 500ms ease-in-out, color 500ms ease-in-out;
+	transition: background 500ms ease-in-out, color 500ms ease-in-out;
+}
+
+.project-btn:hover {
+	color: #ECF8FF;
+	background-position: 100%;
+}
+
+/* footer */
+footer {
+	padding-top: 4.5rem;
+	background-color: #124556;
+}
+
+.footer-heading {
+	color: #ECF8FF;
+	font-size: 2rem;
+}
+
+.foolink{
+	padding: 1rem 0 1.5rem;
+}
+
+.footer-link {
+	display: inline-flex;
+	color: #ECF8FF;
+	border-radius: 7px;
+	padding: .5rem .5rem;
+}
+
+.footer-link a.active,
+.footer-link a:hover,
+.footer-link a:focus {
+	background-color: #0d5f7a;
+	color: #ECF8FF;
+	transition: .5s;
+}
+
+.copyrights {
+	padding-bottom: 2.5rem;
+	color: #ECF8FF;
+}
+
+.craft-text:hover{
+	color: #ECF8FF;
+	background-color: #0d5f7a;
+	padding: .5rem .5rem;
+	border-radius: 10px;
+	transition: .5s;
 }
