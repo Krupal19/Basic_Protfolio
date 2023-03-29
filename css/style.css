@@ -164,6 +164,7 @@ a:focus {
 
 .blogs-text {
 	font-size: 1.3rem;
+	padding-bottom: 2rem;
 }
 
 /* project - button */
@@ -171,6 +172,7 @@ a:focus {
 .project-btn {
 	padding: 0.6em 2.3em;
 	border-radius: 1rem;
+	border-color: #ECF8FF;
 	cursor: pointer;
 	font-size: 1em;
 	color: #0d5f7a;
