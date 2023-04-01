@@ -33,8 +33,7 @@ body {
 }
 
 img {
-	width: 100%;
-	height: auto;
+	max-width: 100%;
 }
 
 h1,
@@ -81,7 +80,7 @@ nav {
 	background-color: #124556;
 	height: 80px;
 	width: 100%;
-	padding: 1rem 4rem;
+	padding: 1rem 2rem;
 }
 
 .logo {
@@ -90,10 +89,10 @@ nav {
 	cursor: pointer;
 }
 
-nav ul li {
-	display: inline-block;
-	list-style: none;
-	padding: .8rem .9rem;
+nav ul{
+	display: flex;
+	flex-wrap: wrap;
+	gap: .8rem;	
 }
 
 nav ul li a {
@@ -101,7 +100,7 @@ nav ul li a {
 	padding: .7rem .7rem;
 	border-radius: .5rem;
 	font-weight: 400;
-	font-size: 1.2rem;
+	font-size: 1rem;
 	text-transform: uppercase;
 }
 
@@ -109,7 +108,6 @@ a.active,
 a:hover,
 a:focus {
 	background-color: #0d5f7a;
-	;
 	color: #ECF8FF;
 	transition: .5s;
 }
